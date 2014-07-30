@@ -1,0 +1,113 @@
+footer{
+    width: 100%;
+    margin-top: 1rem;
+}
+.footer-container{
+    margin:   auto;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-top: 10px;
+}
+.footer-column{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1rem;
+}
+
+footer .site-map a{
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.5s;
+}
+footer .site-map a:hover{
+    color: #CF5C3F;
+}
+footer h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #CF5C3F;
+}
+.site-map{
+    width: 38%;
+}
+.social-media{
+    width: 20%;
+}
+.fb-like-box{
+    width: 40%;
+    text-align: right;
+}
+.social-media a{
+    margin-left: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.fb{
+    background: url("../images/icons.png") no-repeat top left;
+    webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.5s;
+}
+.fb:hover{
+    background: url("../images/icons.png") no-repeat top right;
+}
+.gplus{
+    background: url("../images/icons.png") no-repeat 0 -40px;
+    webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.5s;
+}
+.gplus:hover{
+    background: url("../images/icons.png") no-repeat -40px -40px;
+}
+
+.twitter{
+    background: url("../images/icons.png") no-repeat 0 -120px;
+    webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.5s;
+}
+.twitter:hover{
+    background: url("../images/icons.png") no-repeat -40px -120px;
+}
+iframe{
+    width: 285px;
+    height: 210px;
+}
+
+/*========================*/
+/*=======RESPONSIVE=======*/
+/*========================*/
+
+
+@media all and (min-width: 300px) and (max-width:840px) {
+    .footer-column{
+        display: block;
+        width: 100%;
+    }
+    .site-map{
+        padding: 0 0 0 1rem;
+
+    }
+    .site-map ul{
+        width: 100%;
+    }
+    .social-media{
+        padding-left: 1rem;
+    }
+    .social-media .fb{
+        margin-left: 0;
+    }
+    .fb-like-box{
+        text-align: left;
+    }
+    iframe{
+        width: 270px;
+        height: 205px;
+    }
+}

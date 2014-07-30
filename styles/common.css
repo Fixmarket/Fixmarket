@@ -1,0 +1,22 @@
+body, p, div, header, nav, section, main, footer, span, a, img,ul,li {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../images/bg.png");
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+@media all and (min-width: 300px) and ( max-width:640px){
+    .container{
+        width: 100%;
+    }
+}

@@ -1,0 +1,144 @@
+
+
+.header-container{
+    margin: 0 auto;
+}
+.logo-container{
+    display: inline-block;
+    width: 24%;
+    height: 150px;
+    border: none;
+    background-color: darkgray;
+    vertical-align: top;
+}
+nav {
+    display: inline-block;
+    width: 75%;
+    border: none;
+    vertical-align: bottom;
+    text-transform: uppercase;
+}
+.nav-container{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+nav ul{
+    list-style-type: none;
+    margin-bottom: 0;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    width: 18%;
+    margin-left: 5px;
+}
+
+nav ul li a{
+    padding: 20px;
+    color: #ffffff !important;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    margin-top: 20px;
+    background-color: #666666;
+    -webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.5s;
+    text-decoration: none !important;
+    box-sizing: content-box;
+}
+nav ul li a:hover{
+    background-color: #CF5C3F;
+}
+
+
+/*========================*/
+/*=======RESPONSIVE=======*/
+/*========================*/
+@media all and (min-width: 951px) and (max-width: 1250px){
+
+    .logo-container{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    nav{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav-container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    nav ul{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a:first-of-type{
+        margin-left: -5px;
+    }
+}
+@media all and (min-width: 640px) and (max-width: 950px){
+    .header-container{
+        width: 100%;
+    }
+    .logo-container{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav ul{
+        margin: 0 auto;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        padding: 10px 0 10px 0;
+
+    }
+}
+@media all and (min-width: 300px) and ( max-width:640px) {
+    .header-container{
+        width: 100%;
+    }
+    .logo-container{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    nav ul{
+        margin: 0 auto;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    nav ul li a{
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        padding: 10px 0 10px 0;
+
+    }
+}
