@@ -8,8 +8,13 @@
     width: 24%;
     height: 150px;
     border: none;
-    background-color: darkgray;
-    vertical-align: top;
+    vertical-align: bottom;
+}
+.logo-container img{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin-top: 3rem;
 }
 nav {
     display: inline-block;
