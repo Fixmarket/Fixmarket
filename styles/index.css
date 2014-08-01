@@ -1,3 +1,5 @@
+
+
 a.lefty-arrow {
     position: absolute;
     top:40%;
@@ -15,6 +17,10 @@ a.righty-arrow{
     background:url("../images/sliderArrows.png") no-repeat right;
     width: 59px;
     height: 59px;
+}
+.carousel-inner{
+
+    border-radius: 50px;
 }
 .carousel-inner img{
     width: 100%;
