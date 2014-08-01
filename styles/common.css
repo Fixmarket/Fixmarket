@@ -1,4 +1,4 @@
-body, p, div, header, nav, section, main, footer, span, a, img,ul,li {
+body, p, div, header, nav, section, main, footer, span, a, img,ul,li, strong {
     margin: 0;
     padding: 0;
 }
