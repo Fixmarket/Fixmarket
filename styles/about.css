@@ -1,0 +1,14 @@
+article{
+    margin: 5rem 0 5rem 0 ;
+    font-size: 16px;
+}
+article p {
+    margin-bottom: 2rem;
+}
+
+@media all and (min-width: 100px) and (max-width: 640px) {
+    article{
+        width: 90%;
+        margin: 3rem auto;
+    }
+}

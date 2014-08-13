@@ -120,7 +120,7 @@ nav ul li a:hover{
 
     }
 }
-@media all and (min-width: 300px) and ( max-width:640px) {
+@media all and (min-width: 100px) and ( max-width:640px) {
     .header-container{
         width: 100%;
     }

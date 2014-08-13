@@ -1,0 +1,252 @@
+section{
+    margin:5rem 0 5rem 0;
+}
+.responsive-panel{
+    display: none;
+}
+.responsive-image{
+    display: none;
+}
+.doors, .middle, .blinds{
+    display: inline-block;
+}
+
+.doors, .blinds{
+    width: 19%;
+    vertical-align: top;
+}
+.doors img, .blinds img {
+    width: 100%;
+    height: 480px;
+}
+.middle{
+    width: 57.3%;
+    margin: 0 2rem 0 2rem;
+}
+.middle img{
+    width: 100%;
+    height: 230px;
+}
+.middle img:first-of-type{
+    margin-bottom: 2rem;
+}
+.fasteners{
+    width: 100%;
+}
+.fasteners img{
+    width: 100%;
+    height: 200px;
+}
+
+/**********RESPONSIVE**********/
+@media all and (min-width: 800px) and (max-width: 1330px){
+    .middle{
+        width: 57.3%;
+        margin: 0 1rem;
+    }
+}
+@media all and (min-width: 641px) and (max-width: 799px){
+    .middle{
+        display: none;
+    }
+    .responsive-panel{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .responsive-image{
+        display: inline-block;
+        float: right;
+    }
+    .responsive-panel img{
+        width: 100%;
+    }
+    .doors{
+        display: block;
+        width: 100%;
+    }
+    .doors img{
+        display: inline-block;
+        width: auto;
+    }
+    .blinds{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .fasteners{
+        margin-top: 2rem;
+    }
+    .tools{
+        margin-top: 2rem;
+    }
+}
+@media all and (min-width: 531px) and (max-width: 640px){
+    .center{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .middle{
+        display: none;
+    }
+    .responsive-panel{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .responsive-image{
+        display: inline-block;
+        float: right;
+    }
+    .responsive-panel img{
+        width: 100%;
+    }
+    .doors{
+        display: block;
+        width: 100%;
+    }
+    .doors img{
+        display: inline-block;
+        width: auto;
+    }
+    .blinds{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .fasteners{
+        margin-top: 2rem;
+    }
+    .tools{
+        margin-top: 2rem;
+    }
+}
+@media all and (min-width: 361px) and (max-width: 530px) {
+    .center {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .responsive-panel {
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .responsive-image {
+        display: inline-block;
+        float: right;
+    }
+
+    .responsive-panel img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .doors {
+        display: block;
+        width: 100%;
+    }
+
+    .doors img {
+        display: inline-block;
+        width: auto;
+        height: 300px;
+    }
+
+    .blinds {
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .blinds img{
+
+        height: 300px;;
+    }
+    .fasteners{
+
+        margin-top: 2rem;
+    }
+    .tools{
+        margin-top: 2rem;
+    }
+}
+@media all and (min-width: 100px) and (max-width: 360px) {
+    .center {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .middle {
+        display: none;
+    }
+
+    .responsive-panel {
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .responsive-image {
+        display: inline-block;
+        float: right;
+    }
+
+    .responsive-panel img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .doors {
+        display: block;
+        width: 100%;
+    }
+    .doors img {
+        display: inline-block;
+        width: 48%;
+        height: 300px;
+    }
+
+    .blinds {
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .blinds img {
+
+        height: 300px;;
+    }
+    .fasteners{
+        margin-top: 2rem;
+    }
+    .tools{
+        margin-top: 2rem;
+    }
+}
+
+
+
+/*********IMAGES SIZING**********/
+@media all and (min-width: 1151px) and (max-width: 1250px){
+    .doors img, .blinds img {
+        height: 400px;
+    }
+    .middle img{
+        height: 190px;
+    }
+}
+@media all and (min-width: 800px) and (max-width: 1150px){
+    .doors img, .blinds img{
+        height: 350px;
+    }
+    .middle img{
+        height: 165px;
+    }
+}
+
