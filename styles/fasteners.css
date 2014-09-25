@@ -1,0 +1,21 @@
+section{
+    margin: 5rem auto;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-color: #CCCCCC;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+}
+.box img{
+    width: 200px;
+    height: 125px;
+}
+.box a{
+    color: #555555;
+    font-weight: bold;
+    text-transform: uppercase;
+}

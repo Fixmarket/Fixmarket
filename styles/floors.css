@@ -1,0 +1,29 @@
+section{
+    margin: 5rem auto;
+}
+section img{
+    width: 100% !important;
+}
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+a.lefty-arrow {
+    position: absolute;
+    top:40%;
+    left: 5%;
+    display: inline-block;
+    background:url("../images/sliderArrows.png") no-repeat left;
+    width: 59px;
+    height: 59px;
+}
+a.righty-arrow{
+    position: absolute;
+    top:40%;
+    right: 5%;
+    display: inline-block;
+    background:url("../images/sliderArrows.png") no-repeat right;
+    width: 59px;
+    height: 59px;
+}
