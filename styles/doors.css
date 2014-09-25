@@ -1,0 +1,36 @@
+section{
+    margin: 2rem auto;
+}
+.doorsBox>div{
+    border: 1px solid #000000;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+img {
+    width: 120px;
+    height: 300px;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: scale(1);
+    -webkit-transformscale(1);
+    -moz-transform:scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+img:hover{
+    transform:scale(1.8);
+    -webkit-transform:scale(1.8);
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+
+    z-index: 2;
+}
